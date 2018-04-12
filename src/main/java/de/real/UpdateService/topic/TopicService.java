@@ -11,7 +11,8 @@ public class TopicService {
     private List<Topic> topics= Arrays.asList(
                 new Topic("book_1", "book name", "book description"),
                 new Topic("book_2", "book name", "book description"),
-                new Topic("book_3", "book name", "book description")
+                new Topic("book_3", "book name", "book description"),
+                new Topic("book_4", "book name", "book description")
         );
 
     public List<Topic> getAllTopics() {
